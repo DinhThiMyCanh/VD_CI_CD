@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[User information is valid]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-01-07T14:09:26 ICT" name="Suite" finished-at="2025-01-07T14:09:43 ICT" duration-ms="17089">
+    <groups>
+    </groups>
+    <test started-at="2025-01-07T14:09:26 ICT" name="Test" finished-at="2025-01-07T14:09:43 ICT" duration-ms="17089">
+      <class name="Test.NewTest">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:Test.NewTest@28dcca0c]" started-at="2025-01-07T14:09:26 ICT" name="setupBrowser" finished-at="2025-01-07T14:09:38 ICT" duration-ms="11836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="loginValid()[pri:1, instance:Test.NewTest@28dcca0c]" started-at="2025-01-07T14:09:38 ICT" name="loginValid" finished-at="2025-01-07T14:09:43 ICT" duration-ms="5091" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User information is valid]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginValid -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:Test.NewTest@28dcca0c]" started-at="2025-01-07T14:09:43 ICT" name="cleanUp" finished-at="2025-01-07T14:09:43 ICT" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- Test.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
